@@ -1,0 +1,6 @@
+# Non-pip dependencies. These will need to be manually installed
+
+imagetools (in-house image processing package)
+SimpleElastix (imported as SimpleITK). Needs to be compiled locally.
+python3-openslide
+my_openslide (in-house modification to openslide python binding)

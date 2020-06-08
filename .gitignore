@@ -1,0 +1,25 @@
+# WARNING: Many subfolders have their own .gitignore in order to preserve the directory structure while 
+# keeping the large objects in those folders out of the git repo. Do not delete your local repo without
+# ensuring that you have saved everything you need!
+
+# Pycharm
+=======
+﻿# Pycharm
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/usage.statistics.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
+
+# Temp files
+*/__pycache__/
+*.pyc
+.~lock*
+*.swp
+
+# Pip files
+ihc.egg-info
+
+# OTHER
+logs/*
+reports/*
