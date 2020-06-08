@@ -1,8 +1,5 @@
 # WSI Registration
 
-Users should checkout the `stable` branch. `master` is the dev branch and contains a lot of 
-additional junk from past and future experiments. 
-
 ## Description
 A novel and powerful approach for image registration of large images. Turns patch registrations 
 into a smooth global registration by interpolating between overlapping DVFs.
